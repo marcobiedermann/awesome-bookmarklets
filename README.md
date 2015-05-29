@@ -82,6 +82,12 @@ javascript:(function(){var d=document,s=d.createElement('scr'+'ipt'),b=d.body,l=
 ```
 
 ## Performance
+**[CriticalCSS](https://gist.github.com/PaulKinlan/6284142):** CriticalCSS Bookmarklet and Devtool Snippet.js
+
+```
+!function(){var a=function(a,b,c){var d=c||{},e={},f=function(a){!!e[a.selectorText]==!1&&(e[a.selectorText]={});for(var b=a.style.cssText.split(/;(?![A-Za-z0-9])/),c=0;c<b.length;c++)if(!!b[c]!=!1){var d=b[c].split(": ");d[0]=d[0].trim(),d[1]=d[1].trim(),e[a.selectorText][d[0]]=d[1]}},g=function(){for(var c=a.innerHeight,e=b.createTreeWalker(b,NodeFilter.SHOW_ELEMENT,function(){return NodeFilter.FILTER_ACCEPT},!0);e.nextNode();){var g=e.currentNode,h=g.getBoundingClientRect();if(h.top<c||d.scanFullPage){var i=a.getMatchedCSSRules(g);if(i)for(var j=0;j<i.length;j++)f(i[j])}}};this.generateCSS=function(){var a="";for(var b in e){a+=b+" { ";for(var c in e[b])a+=c+": "+e[b][c]+"; ";a+="}\n"}return a},g()},b=new a(window,document),c=b.generateCSS();console.log(c)}();
+```
+
 **[ CSS Stress Test](https://github.com/andyedinborough/stress-css):** This project is a bookmarklet for stress testing the CSS on any given webpage.
 It indexes all the elements and their classes, and then--class by class--it removes one, and times how long it takes to scroll the page. Selectors that save a considerable amount of time when removed indicate problem areas.
 
