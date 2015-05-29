@@ -1,6 +1,13 @@
 # Bookmaklets
 
-## Accessibility
+## Table of content
+* [Accessibility](#accessibility--validation)
+* [Debug](#debug)
+* [Fonts](#fonts)
+* [Performance](#performance)
+* [Search Engine Optimization](#search-engine-optimization)
+
+## Accessibility & Validation
 **[a11y.css](https://github.com/ffoodd/a11y.css):** This CSS file intends to warn developers about possible risks and mistakes that exist in HTML code. It can also be used to roughly evaluate a site's quality by simply including it as an external stylesheet.
 
 ```
@@ -17,6 +24,12 @@ javascript:(function() {var _p='//squizlabs.github.io/HTML_CodeSniffer/build/';v
 
 ```
 javascript:%20(function()%7Bvar%20yourURL=(window.location.protocol=='http:'?'https://webapps.ncsu.edu/accessibility-readability/readability.php':'https://webapps.ncsu.edu/accessibility-readability/readability.php');function%20getScript(url,success)%7Bvar%20script=document.createElement('script');script.src=url;var%20head=document.getElementsByTagName('head')%5B0%5D,done=false;script.onload=script.onreadystatechange=function()%7Bif(!done&&(!this.readyState%7C%7Cthis.readyState=='loaded'%7C%7Cthis.readyState=='complete'))%7Bdone=true;success();script.onload=script.onreadystatechange=null;head.removeChild(script);%7D%7D;head.appendChild(script);%7D%20getScript(yourURL,function()%7B%7D);%7D)();
+```
+
+**[REVENGE.CSS](https://github.com/Heydon/REVENGE.CSS):** The premise of revenge.css is simple: A CSS bookmarklet that uses selectors to find bad markup, displaying ugly pink error messages in comic sans serif wherever you write bad HTML.
+
+```
+javascript:(function(){revenge=document.createElement('LINK');revenge.href='https://rawgithub.com/Heydon/REVENGE.CSS/master/revenge.css';revenge.rel='stylesheet';revenge.media='all';document.body.appendChild(revenge);})();
 ```
 
 **[Web Evaluation Tools Bookmarklet](http://accessibility.oit.ncsu.edu/tools/web-evaluation-tools):** This set of tools allows you to check for several aspects of Web accessibility that other tools do not. It is not designed to replace any other tools, but rather to supplement them.
