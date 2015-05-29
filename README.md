@@ -25,6 +25,24 @@ javascript:%20(function()%7Bvar%20yourURL=(window.location.protocol=='http:'?'ht
 javascript:%20(function()%7Bvar%20yourURL=(window.location.protocol=='http:'?'http://webapps.ncsu.edu/web-evaluation-tools/web-evaluation-tools.php':'https://webapps.ncsu.edu/web-evaluation-tools/web-evaluation-tools.php');function%20getScript(url,success)%7Bvar%20script=document.createElement('script');script.src=url;var%20head=document.getElementsByTagName('head')%5B0%5D,done=false;script.onload=script.onreadystatechange=function()%7Bif(!done&&(!this.readyState%7C%7Cthis.readyState=='loaded'%7C%7Cthis.readyState=='complete'))%7Bdone=true;success();script.onload=script.onreadystatechange=null;head.removeChild(script);%7D%7D;head.appendChild(script);%7D%20getScript(yourURL,function()%7B%7D);%7D)();
 ```
 
+## Debug
+**[CSS Debugger](https://github.com/roykolak/css-debugger):** CSS styles to highlight problematic and malformed html
+
+```
+javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://roykolak.github.io/css-debugger/bookmarklet.js';})();
+```
+
+**[CSS Layout Debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1):** A tweet-sized debugger for visualizing your CSS layouts. Outlines every DOM element on your page a random (valid) CSS hex color.
+```
+[].forEach.call($$("*"),function(a){a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)})
+```
+
+**[debugCSS](https://github.com/yahoo/debugCSS):** debugCSS is meant to be loaded on an existing page to highlight potentially broken, malformed or legacy (X)HTML.
+
+```
+javascript:(function(d,i,l){l=d.getElementById(i);if(l){l.parentNode.removeChild(l);return;}l=d.createElement('link');l.id=i;l.rel='stylesheet';l.type='text/css';l.href='//yahoo.github.io/debugCSS/debugCSS.css';d.getElementsByTagName('head')[0].appendChild(l);}(document,'debugCSS'))
+```
+
 ## Fonts
 **[FFFFALLBACK](http://ffffallback.com/):** Web fonts are here, sparking an exciting new era in web design. FFFFALLBACK makes it easy to find the perfect fallback fonts, so that your designs degrade gracefully.
 
