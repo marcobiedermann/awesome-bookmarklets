@@ -50,3 +50,16 @@ javascript:(function(window){"use strict";window.timing=window.timing||{getTimes
 ```
 javascript:(function(y,p,o){p=y.body.appendChild(y.createElement('iframe'));p.id='YSLOW-bookmarklet';p.style.cssText='display:none';o=p.contentWindow.document;o.open().write('<head><body onload="YUI_config={win:window.parent,doc:window.parent.document};var d=document;d.getElementsByTagName(\'head\')[0].appendChild(d.createElement(\'script\')).src=\'http://yslow.org/yslow-bookmarklet.js\'">');o.close()}(document))
 ```
+
+## Search Engine Optimization
+**[OuiSEO](https://github.com/carlsednaoui/seo-bookmarklet):** An open-source bookmarklet that shows you on-page SEO and social meta data information.
+
+```
+javascript:(function(){if(window.ouiseo===undefined){var jsCode=document.createElement('script');jsCode.setAttribute('src','//carlsednaoui.s3.amazonaws.com/ouiseo/ouiseo.min.js');document.body.appendChild(jsCode);}else if(!!window.ouiseo&&!document.getElementById('ouiseo')){ouiseo();}else{console.log('ouiseo is already open');}})();
+```
+
+**[SEO Bookmarklet](http://twkm.ca/projects/seo-bookmarklet):** A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
+
+```
+javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'twkm.ca/min/f=gadgets/resources/seo-bookmarklet/seo-stable.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','025');b.appendChild(z);}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)
+```
