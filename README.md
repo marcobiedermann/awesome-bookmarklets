@@ -26,6 +26,24 @@ javascript:%20(function()%7Bvar%20yourURL=(window.location.protocol=='http:'?'ht
 ```
 
 ## Fonts
+**[FFFFALLBACK](http://ffffallback.com/):** Web fonts are here, sparking an exciting new era in web design. FFFFALLBACK makes it easy to find the perfect fallback fonts, so that your designs degrade gracefully.
+
+```
+javascript:(function() {  var scriptTag = document.createElement('script');  scriptTag.setAttribute('src', 'http://ffffallback.com/#/bookmarklet/ffffallback.js?r=0.8986018379218876');  var linkTag = document.createElement('link');  linkTag.setAttribute('href', 'http://ffffallback.com/#/bookmarklet/ffffallback.css?r=0.747470646398142');  linkTag.setAttribute('rel','stylesheet');  document.body.appendChild(scriptTag);  document.body.appendChild(linkTag);})();
+```
+
+**[FontFriend](http://somadesign.ca/projects/fontfriend/):** Font­Friend is a book­marklet for typo­graph­i­cally obsessed web design­ers. It enables rapid check­ing of fonts and font styles directly in the browser with­out edit­ing code and refresh­ing pages, mak­ing it the ideal com­pan­ion for cre­at­ing CSS font stacks.
+
+```
+javascript:(function()%20{if(typeof%20jQuery=='undefined'){var%20jqit=document.createElement('script');jqit.type='text/javascript';jqit.src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js';document.getElementsByTagName('head')[0].appendChild(jqit);}%20_my_script=document.createElement('script');_my_script.type='text/javascript';_my_script.src='//font-friend.googlecode.com/svn/trunk/font-friend.js';document.getElementsByTagName('head')[0].appendChild(_my_script);})();
+```
+
+**[Fount](http://fount.artequalswork.com/):** http://fount.artequalswork.com/
+
+```
+javascript:(function(){if(!document.getElementById('fountscripton')&&!document.getElementById('fountscript')){var founts=document.createElement('script');founts.src='http://fount.artequalswork.com/fount.js';founts.id='fountscript';document.body.appendChild(founts);}else fountReset(false);})();
+```
+
 **[WhatFont](https://github.com/chengyin/WhatFont-Bookmarklet):** WhatFont is a JavaScript script to detect what font in the stack is being used on any elements of a web page.
 
 ```
