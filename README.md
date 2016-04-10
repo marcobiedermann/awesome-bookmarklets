@@ -145,3 +145,6 @@ javascript:(function(){if(window.ouiseo===undefined){var jsCode=document.createE
 ```
 javascript:function run(){var d=document,da=new Date(),b=d.body,p=('https:' == document.location.protocol ? 'https://' : 'http://'),ex=d.getElementById('twkmSEOScript');try{if(!b)throw(0);if(!ex){z=d.createElement('scr'+'ipt');z.setAttribute('src',p+'twkm.ca/min/f=gadgets/resources/seo-bookmarklet/seo-stable.js?ts='+da.getTime());z.setAttribute('id','twkmSEOScript');z.setAttribute('class','025');b.appendChild(z);}}catch(e){alert('Please wait until the page has loaded.');}}run();void(0)
 ```
+
+## License
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](//creativecommons.org/publicdomain/zero/1.0/)
