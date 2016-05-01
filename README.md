@@ -139,7 +139,7 @@ javascript:(function(d){'use strict';var s=d.createElement('script');function do
 ```
 
 ### [pagespeedThis](https://github.com/kimblim/pagespeedThis)
-A very simple bookmarklet that analyses the pagespeed of the current page in the browser
+Analyses the pagespeed of the current page
 
 ```javascript
 javascript:window.location='https://developers.google.com/speed/pagespeed/insights/?url='+encodeURI(window.location);
@@ -182,7 +182,7 @@ javascript:(function(y){'use strict';var b=y.body||y.getElementsByTagName('body'
 
 ## Search Engine Optimization
 ### [OuiSEO](https://github.com/carlsednaoui/seo-bookmarklet)
-An open-source bookmarklet that shows you on-page SEO and social metadata information.
+Displays SEO and social metadata information.
 
 ```javascript
 javascript:(function(d){if(typeof ouiseo==='undefined'){var jsCode=d.createElement('script');jsCode.setAttribute('src','https://carlsednaoui.s3.amazonaws.com/ouiseo/ouiseo.min.js');(d.body||d.getElementsByTagName('body')[0]).appendChild(jsCode);}else if(ouiseo&&!d.getElementById('ouiseo')){ouiseo();}else console.log('OuiSEO is already open');})(document);
