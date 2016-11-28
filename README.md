@@ -56,6 +56,9 @@ View any site from all angles.
 ### [MIN](http://min.artequalswork.com/)
 Basic looks at type and layout.
 
+### [WebFontPicker](https://github.com/danielgavrilov/WebFontPicker)
+A bookmarklet that helps preview Google Web Fonts live on any website.
+
 ### [WhatFont](https://github.com/chengyin/WhatFont-Bookmarklet)
 WhatFont is a JavaScript script to detect what font in the stack is being used on any elements of a web page.
 
