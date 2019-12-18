@@ -35,8 +35,6 @@ CSS styles to highlight problematic and malformed html
 ### [CSS Layout Debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1)
 A tweet-sized debugger for visualizing your CSS layouts. Outlines every DOM element on your page a random (valid) CSS hex color.
 
-### [Debug CSS](https://gist.github.com/ozgrozer/91e8b759a1aaff39d9d5#file-debugcss-js)
-
 ### [Yahoo! debugCSS](https://github.com/yahoo/debugCSS)
 debugCSS is meant to be loaded on an existing page to highlight potentially broken, malformed or legacy (X)HTML.
 
@@ -94,9 +92,6 @@ Displays SEO and social metadata information.
 
 ### [SEO Bookmarklet](http://twkm.ca/projects/seo-bookmarklet)
 A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
-
-## Miscellaneous
-### [ThemeForest Live Preview](https://gist.github.com/ozgrozer/91e8b759a1aaff39d9d5#file-themeforestlivepreview-js)
 
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](//creativecommons.org/publicdomain/zero/1.0/)
