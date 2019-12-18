@@ -82,8 +82,8 @@ This class provides a simple info box that will help you monitor your code perfo
 ### [timing.js](https://github.com/addyosmani/timing.js)
 Timing.js is a small set of helpers for working with the Navigation Timing API to identify where your application is spending its time. Useful as a standalone script, DevTools Snippet or bookmarklet.
 
-### [YSLOW](http://yslow.org/)
-YSlow analyzes web pages and why they're slow based on Yahoo!'s rules for high performance web sites
+### [Yslow](http://yslow.org/mobile/)
+YSlow analyzes web pages and why they're slow based on Yahoo!'s rules for high-performance websites
 
 ## Search Engine Optimization
 ### [OuiSEO](https://github.com/carlsednaoui/seo-bookmarklet)
