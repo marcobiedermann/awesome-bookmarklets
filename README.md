@@ -13,7 +13,7 @@
 This CSS file intends to warn developers about possible risks and mistakes that exist in HTML code. It can also be used to roughly evaluate a site's quality by simply including it as an external stylesheet.
 
 ### [HTML_CodeSniffer](https://github.com/squizlabs/HTML_CodeSniffer)
-HTML_CodeSniffer is a client-side JavaScript that checks a HTML document or source code, and detects violations of a defined coding standard.
+HTML_CodeSniffer is a client-side JavaScript that checks an HTML document or source code, and detects violations of a defined coding standard.
 
 ### [Readability Bookmarklet](http://accessibility.oit.ncsu.edu/tools/readability/)
 This tool will show you how readable selected text is on a page. The readability guidelines are based on WCAG 2 Level AAA Conformance. Note, there is no readability requirement for WCAG 2, Level AA Conformance. The results are based on six tests.
@@ -27,10 +27,10 @@ This set of tools allows you to check for several aspects of Web accessibility t
 ## Debug
 
 ### [45-75](https://css-tricks.com/bookmarklet-colorize-text-45-75-characters-line-length-testing/)
-Check whether lines are between 45 and 75 characers, for optimal readability; this especially helps with font sizing for responsive web design.
+Check whether lines are between 45 and 75 characters, for optimal readability; this especially helps with font sizing for responsive web design.
 
 ### [CSS Debugger](https://github.com/roykolak/css-debugger)
-CSS styles to highlight problematic and malformed html
+CSS styles to highlight problematic and malformed HTML
 
 ### [CSS Layout Debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1)
 A tweet-sized debugger for visualizing your CSS layouts. Outlines every DOM element on your page a random (valid) CSS hex color.
