@@ -6,6 +6,7 @@
 * [Fonts](#fonts)
 * [Performance](#performance)
 * [Search Engine Optimization](#search-engine-optimization)
+* [Games](#games)
 
 ## Accessibility & Validation
 ### [a11y.css](https://github.com/ffoodd/a11y.css)
@@ -91,6 +92,10 @@ Displays SEO and social metadata information.
 
 ### [SEO Bookmarklet](http://twkm.ca/projects/seo-bookmarklet)
 A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
+
+## Games
+### [Astroids](http://websiteasteroids.com/)
+Play Astroids on a website and destroy it.
 
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](//creativecommons.org/publicdomain/zero/1.0/)
