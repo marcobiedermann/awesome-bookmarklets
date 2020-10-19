@@ -35,9 +35,6 @@ CSS styles to highlight problematic and malformed HTML
 ### [CSS Layout Debugger](https://gist.github.com/addyosmani/fd3999ea7fce242756b1)
 A tweet-sized debugger for visualizing your CSS layouts. Outlines every DOM element on your page a random (valid) CSS hex color.
 
-### [Yahoo! debugCSS](https://github.com/yahoo/debugCSS)
-debugCSS is meant to be loaded on an existing page to highlight potentially broken, malformed or legacy (X)HTML.
-
 ## Fonts
 ### [FFFFALLBACK](http://ffffallback.com/)
 Web fonts are here, sparking an exciting new era in web design. FFFFALLBACK makes it easy to find the perfect fallback fonts, so that your designs degrade gracefully.
