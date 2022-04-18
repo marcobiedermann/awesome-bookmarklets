@@ -24,6 +24,9 @@ The premise of revenge.css is simple: A CSS bookmarklet that uses selectors to f
 ### [Web Evaluation Tools Bookmarklet](http://accessibility.oit.ncsu.edu/tools/web-evaluation-tools)
 This set of tools allows you to check for several aspects of Web accessibility that other tools do not. It is not designed to replace any other tools, but rather to supplement them.
 
+### [Word Lookup Bookmarklet](https://github.com/john-chase/projects_mashups_word-lookup-bookmarklet)
+This bookmarklet inspects the document for "p" (paragraph) tags, wraps them in blue borders to denote "active" lookup areas, and splits them into words that can then be highlighted and clicked for definition lookup. Works best on pages with text content like blogs, articles, news stories, etc. Tested on most modern browsers (not mobile devices - there are apps for that).
+
 ## Debug
 
 ### [45-75](https://css-tricks.com/bookmarklet-colorize-text-45-75-characters-line-length-testing/)
