@@ -95,6 +95,9 @@ A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
 ### [QR-marklet](https://github.com/Turtle6665/QR-marklet)
 A local only QRcode generator.
 
+### [Sci-marklet](https://github.com/Turtle6665/Sci-marklet)
+Replace all DOI links to Sci-hub URLS on a page.
+
 ## Games
 ### [Astroids](http://websiteasteroids.com/)
 Play Astroids on a website and destroy it.
