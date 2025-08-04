@@ -6,6 +6,7 @@
 * [Fonts](#fonts)
 * [Performance](#performance)
 * [Search Engine Optimization](#search-engine-optimization)
+* [Utils](#utils)
 * [Games](#games)
 
 ## Accessibility & Validation
@@ -89,6 +90,10 @@ Displays SEO and social metadata information.
 
 ### [SEO Bookmarklet](http://twkm.ca/projects/seo-bookmarklet)
 A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
+
+## Utils
+### [QR-marklet](https://github.com/Turtle6665/QR-marklet)
+A local only QRcode generator.
 
 ## Games
 ### [Astroids](http://websiteasteroids.com/)
