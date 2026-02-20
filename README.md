@@ -90,6 +90,9 @@ Displays SEO and social metadata information.
 ### [SEO Bookmarklet](http://twkm.ca/projects/seo-bookmarklet)
 A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
 
+### Miscellaneous
+- [YTM Keep-Alive](https://github.com/erysngl/ytm-keep-alive) - A pure DOM bookmarklet to prevent YouTube Music from pausing automatically.
+
 ## Games
 ### [Astroids](http://websiteasteroids.com/)
 Play Astroids on a website and destroy it.
