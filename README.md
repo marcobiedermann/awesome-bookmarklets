@@ -97,5 +97,8 @@ A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
 ### [Astroids](http://websiteasteroids.com/)
 Play Astroids on a website and destroy it.
 
+### [Katamari Hack](http://kathack.com/)
+Play Katamari on any website.
+
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](//creativecommons.org/publicdomain/zero/1.0/)
