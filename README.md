@@ -92,7 +92,7 @@ A One-Stop SEO Bookmarklet to Quickly Review On-Site SEO
 
 ### Miscellaneous
 - [YTM Keep-Alive](https://github.com/erysngl/ytm-keep-alive) - A pure DOM bookmarklet to prevent YouTube Music from pausing automatically.
-- [FicWrapped](https://ficwrapped.pages.dev/) - Reads your Archive of Our Own (AO3) reading history in the browser and turns it into a year-in-review, without asking for your password.
+- [FicWrapped](https://ficwrapped.yansquared.com/) - Reads your Archive of Our Own (AO3) reading history in the browser and turns it into a year-in-review, without asking for your password.
 
 ## Games
 ### [Astroids](http://websiteasteroids.com/)
